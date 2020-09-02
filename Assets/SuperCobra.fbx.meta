@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: f107390c3a172194b8ce2731d449459b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ArmatureDoor
+    100002: ArmatureMainRotor
+    100004: ArmatureTailRotor
+    100006: BendController
+    100008: BendController_end
+    100010: Canon_LOD0
+    100012: Canon_LOD1
+    100014: Canon_LOD2
+    100016: Cockpit_LOD0
+    100018: Cockpit_LOD1
+    100020: Cockpit_LOD2
+    100022: CollectiveController
+    100024: CollectiveController_end
+    100026: Collider WeaponsSupport
+    100028: ColliderBlade.L
+    100030: ColliderBlade.R
+    100032: ColliderCanon
+    100034: ColliderCanopy
+    100036: ColliderEngine
+    100038: ColliderFuselage
+    100040: ColliderLanding.L
+    100042: ColliderLanding.R
+    100044: ColliderMainRotor
+    100046: ColliderRadar
+    100048: ColliderTailRotor1
+    100050: ColliderTailRotor2
+    100052: ColliderTorque.0
+    100054: ColliderTorque.1
+    100056: ColliderTorque.2
+    100058: ColliderTorque.3
+    100060: ColliderTurret
+    100062: EmptyCanon
+    100064: EmptyMainBladeRotor
+    100066: EmptyRadar
+    100068: EmptyTailRotor
+    100070: EmptyTurret
+    100072: FakeMainRotorBlade
+    100074: FakeTailRotor
+    100076: Fuselage_LOD0
+    100078: Fuselage_LOD1
+    100080: Fuselage_LOD2
+    100082: GunnerDoor
+    100084: GunnerDoor_end
+    100086: GunnerDoor_LOD0
+    100088: GunnerDoor_LOD1
+    100090: GunnerDoor_LOD2
+    100092: GunnerDoorController
+    100094: GunnerDoorController_end
+    100096: MainRotor_LOD0
+    100098: MainRotor_LOD1
+    100100: MainRotor_LOD2
+    100102: MainRotorBlade_LOD0
+    100104: MainRotorBlade_LOD1
+    100106: MainRotorBlade_LOD2
+    100108: MRotor1.L
+    100110: MRotor1.R
+    100112: MRotor2.L
+    100114: MRotor2.R
+    100116: MRotor3.L
+    100118: MRotor3.R
+    100120: MRotor4.L
+    100122: MRotor4.L_end
+    100124: MRotor4.R
+    100126: MRotor4.R_end
+    100128: MRotorC
+    100130: MRotorC_end
+    100132: MRotorCollective.L
+    100134: MRotorCollective.R
+    100136: MRotorCollectiveC
+    100138: MRotorCollectiveC_end
+    100140: MRotorMecha1.L
+    100142: MRotorMecha1.R
+    100144: MRotorMecha2.L
+    100146: MRotorMecha2.R
+    100148: MRotorMecha3.L
+    100150: MRotorMecha3.R
+    100152: MRotorMecha4.L
+    100154: MRotorMecha4.L_end
+    100156: MRotorMecha4.R
+    100158: MRotorMecha4.R_end
+    100160: MRotorStatic
+    100162: MRotorStatic_end
+    100164: Nacelles Missiles_LOD0
+    100166: Nacelles Missiles_LOD1
+    100168: Nacelles Missiles_LOD2
+    100170: Nacelles Rockets_LOD0
+    100172: Nacelles Rockets_LOD1
+    100174: Nacelles Rockets_LOD2
+    100176: PilotDoor
+    100178: PilotDoor_end
+    100180: PilotDoor_LOD0
+    100182: PilotDoor_LOD1
+    100184: PilotDoor_LOD2
+    100186: PilotDoorController
+    100188: PilotDoorController_end
+    100190: Radar_LOD0
+    100192: Radar_LOD1
+    100194: Radar_LOD2
+    100196: //RootNode
+    100198: TailRotor_LOD0
+    100200: TailRotor_LOD1
+    100202: TailRotor_LOD2
+    100204: Tourelle_LOD0
+    100206: Tourelle_LOD1
+    100208: Tourelle_LOD2
+    100210: TRotor.L
+    100212: TRotor.L_end
+    100214: TRotor.R
+    100216: TRotor.R_end
+    100218: TRotorPedalController
+    100220: TRotorPedalController_end
+    100222: TRotorStatic
+    100224: TRotorStatic_end
+    100226: TRotorTurnController
+    100228: TRotorTurnController_end
+    400000: ArmatureDoor
+    400002: ArmatureMainRotor
+    400004: ArmatureTailRotor
+    400006: BendController
+    400008: BendController_end
+    400010: Canon_LOD0
+    400012: Canon_LOD1
+    400014: Canon_LOD2
+    400016: Cockpit_LOD0
+    400018: Cockpit_LOD1
+    400020: Cockpit_LOD2
+    400022: CollectiveController
+    400024: CollectiveController_end
+    400026: Collider WeaponsSupport
+    400028: ColliderBlade.L
+    400030: ColliderBlade.R
+    400032: ColliderCanon
+    400034: ColliderCanopy
+    400036: ColliderEngine
+    400038: ColliderFuselage
+    400040: ColliderLanding.L
+    400042: ColliderLanding.R
+    400044: ColliderMainRotor
+    400046: ColliderRadar
+    400048: ColliderTailRotor1
+    400050: ColliderTailRotor2
+    400052: ColliderTorque.0
+    400054: ColliderTorque.1
+    400056: ColliderTorque.2
+    400058: ColliderTorque.3
+    400060: ColliderTurret
+    400062: EmptyCanon
+    400064: EmptyMainBladeRotor
+    400066: EmptyRadar
+    400068: EmptyTailRotor
+    400070: EmptyTurret
+    400072: FakeMainRotorBlade
+    400074: FakeTailRotor
+    400076: Fuselage_LOD0
+    400078: Fuselage_LOD1
+    400080: Fuselage_LOD2
+    400082: GunnerDoor
+    400084: GunnerDoor_end
+    400086: GunnerDoor_LOD0
+    400088: GunnerDoor_LOD1
+    400090: GunnerDoor_LOD2
+    400092: GunnerDoorController
+    400094: GunnerDoorController_end
+    400096: MainRotor_LOD0
+    400098: MainRotor_LOD1
+    400100: MainRotor_LOD2
+    400102: MainRotorBlade_LOD0
+    400104: MainRotorBlade_LOD1
+    400106: MainRotorBlade_LOD2
+    400108: MRotor1.L
+    400110: MRotor1.R
+    400112: MRotor2.L
+    400114: MRotor2.R
+    400116: MRotor3.L
+    400118: MRotor3.R
+    400120: MRotor4.L
+    400122: MRotor4.L_end
+    400124: MRotor4.R
+    400126: MRotor4.R_end
+    400128: MRotorC
+    400130: MRotorC_end
+    400132: MRotorCollective.L
+    400134: MRotorCollective.R
+    400136: MRotorCollectiveC
+    400138: MRotorCollectiveC_end
+    400140: MRotorMecha1.L
+    400142: MRotorMecha1.R
+    400144: MRotorMecha2.L
+    400146: MRotorMecha2.R
+    400148: MRotorMecha3.L
+    400150: MRotorMecha3.R
+    400152: MRotorMecha4.L
+    400154: MRotorMecha4.L_end
+    400156: MRotorMecha4.R
+    400158: MRotorMecha4.R_end
+    400160: MRotorStatic
+    400162: MRotorStatic_end
+    400164: Nacelles Missiles_LOD0
+    400166: Nacelles Missiles_LOD1
+    400168: Nacelles Missiles_LOD2
+    400170: Nacelles Rockets_LOD0
+    400172: Nacelles Rockets_LOD1
+    400174: Nacelles Rockets_LOD2
+    400176: PilotDoor
+    400178: PilotDoor_end
+    400180: PilotDoor_LOD0
+    400182: PilotDoor_LOD1
+    400184: PilotDoor_LOD2
+    400186: PilotDoorController
+    400188: PilotDoorController_end
+    400190: Radar_LOD0
+    400192: Radar_LOD1
+    400194: Radar_LOD2
+    400196: //RootNode
+    400198: TailRotor_LOD0
+    400200: TailRotor_LOD1
+    400202: TailRotor_LOD2
+    400204: Tourelle_LOD0
+    400206: Tourelle_LOD1
+    400208: Tourelle_LOD2
+    400210: TRotor.L
+    400212: TRotor.L_end
+    400214: TRotor.R
+    400216: TRotor.R_end
+    400218: TRotorPedalController
+    400220: TRotorPedalController_end
+    400222: TRotorStatic
+    400224: TRotorStatic_end
+    400226: TRotorTurnController
+    400228: TRotorTurnController_end
+    2100000: mechanique cobra
+    2100002: No Name
+    2100004: FuselageCobra
+    2100006: cockpitCage
+    2100008: Nacelle
+    2100010: verriere
+    2100012: cockpitSide
+    2100014: cockpit
+    2100016: cockpiButton
+    2100018: TailRotorFakeMotion
+    2100020: MainFakeMotionRotor
+    2300000: Canon_LOD0
+    2300002: Canon_LOD1
+    2300004: Canon_LOD2
+    2300006: Cockpit_LOD0
+    2300008: Cockpit_LOD1
+    2300010: Cockpit_LOD2
+    2300012: Collider WeaponsSupport
+    2300014: ColliderBlade.L
+    2300016: ColliderBlade.R
+    2300018: ColliderCanon
+    2300020: ColliderCanopy
+    2300022: ColliderEngine
+    2300024: ColliderFuselage
+    2300026: ColliderLanding.L
+    2300028: ColliderLanding.R
+    2300030: ColliderMainRotor
+    2300032: ColliderRadar
+    2300034: ColliderTailRotor1
+    2300036: ColliderTailRotor2
+    2300038: ColliderTorque.0
+    2300040: ColliderTorque.1
+    2300042: ColliderTorque.2
+    2300044: ColliderTorque.3
+    2300046: ColliderTurret
+    2300048: Fuselage_LOD0
+    2300050: Fuselage_LOD1
+    2300052: Fuselage_LOD2
+    2300054: Nacelles Missiles_LOD0
+    2300056: Nacelles Missiles_LOD1
+    2300058: Nacelles Missiles_LOD2
+    2300060: Nacelles Rockets_LOD0
+    2300062: Nacelles Rockets_LOD1
+    2300064: Nacelles Rockets_LOD2
+    2300066: Radar_LOD0
+    2300068: Radar_LOD1
+    2300070: Radar_LOD2
+    2300072: Tourelle_LOD0
+    2300074: Tourelle_LOD1
+    2300076: Tourelle_LOD2
+    3300000: Canon_LOD0
+    3300002: Canon_LOD1
+    3300004: Canon_LOD2
+    3300006: Cockpit_LOD0
+    3300008: Cockpit_LOD1
+    3300010: Cockpit_LOD2
+    3300012: Collider WeaponsSupport
+    3300014: ColliderBlade.L
+    3300016: ColliderBlade.R
+    3300018: ColliderCanon
+    3300020: ColliderCanopy
+    3300022: ColliderEngine
+    3300024: ColliderFuselage
+    3300026: ColliderLanding.L
+    3300028: ColliderLanding.R
+    3300030: ColliderMainRotor
+    3300032: ColliderRadar
+    3300034: ColliderTailRotor1
+    3300036: ColliderTailRotor2
+    3300038: ColliderTorque.0
+    3300040: ColliderTorque.1
+    3300042: ColliderTorque.2
+    3300044: ColliderTorque.3
+    3300046: ColliderTurret
+    3300048: Fuselage_LOD0
+    3300050: Fuselage_LOD1
+    3300052: Fuselage_LOD2
+    3300054: Nacelles Missiles_LOD0
+    3300056: Nacelles Missiles_LOD1
+    3300058: Nacelles Missiles_LOD2
+    3300060: Nacelles Rockets_LOD0
+    3300062: Nacelles Rockets_LOD1
+    3300064: Nacelles Rockets_LOD2
+    3300066: Radar_LOD0
+    3300068: Radar_LOD1
+    3300070: Radar_LOD2
+    3300072: Tourelle_LOD0
+    3300074: Tourelle_LOD1
+    3300076: Tourelle_LOD2
+    4300000: TailRotor_LOD2
+    4300002: TailRotor_LOD1
+    4300004: TailRotor_LOD0
+    4300006: ColliderLanding.L
+    4300008: ColliderTorque.3
+    4300010: ColliderTorque.2
+    4300012: ColliderTorque.1
+    4300014: ColliderMainRotor
+    4300016: ColliderLanding.R
+    4300018: ColliderEngine
+    4300020: Collider WeaponsSupport
+    4300022: ColliderCanopy
+    4300024: ColliderRadar
+    4300026: ColliderFuselage
+    4300028: ColliderTailRotor1
+    4300030: ColliderTorque.0
+    4300032: Radar_LOD0
+    4300034: Radar_LOD1
+    4300036: Radar_LOD2
+    4300038: ColliderTurret
+    4300040: ColliderCanon
+    4300042: Canon_LOD2
+    4300044: Canon_LOD1
+    4300046: Canon_LOD0
+    4300048: Tourelle_LOD0
+    4300050: Tourelle_LOD1
+    4300052: Tourelle_LOD2
+    4300054: Fuselage_LOD2
+    4300056: Nacelles Missiles_LOD2
+    4300058: Nacelles Rockets_LOD2
+    4300060: Cockpit_LOD2
+    4300062: Nacelles Rockets_LOD1
+    4300064: Nacelles Missiles_LOD1
+    4300066: Fuselage_LOD1
+    4300068: Cockpit_LOD1
+    4300070: Nacelles Missiles_LOD0
+    4300072: Nacelles Rockets_LOD0
+    4300074: Cockpit_LOD0
+    4300076: Fuselage_LOD0
+    4300078: GunnerDoor_LOD2
+    4300080: GunnerDoor_LOD1
+    4300082: GunnerDoor_LOD0
+    4300084: PilotDoor_LOD2
+    4300086: PilotDoor_LOD1
+    4300088: PilotDoor_LOD0
+    4300090: ColliderTailRotor2
+    4300092: FakeTailRotor
+    4300094: ColliderBlade.L
+    4300096: ColliderBlade.R
+    4300098: MainRotorBlade_LOD2
+    4300100: MainRotorBlade_LOD1
+    4300102: MainRotorBlade_LOD0
+    4300104: MainRotor_LOD2
+    4300106: MainRotor_LOD1
+    4300108: MainRotor_LOD0
+    4300110: FakeMainRotorBlade
+    7400000: ArmatureDoor|ArmatureDoorAction
+    7400002: ArmatureTailRotor|ArmatureTailRotorAction
+    7400004: ArmatureMainRotor|ArmatureMainRotorAction
+    9500000: //RootNode
+    13700000: FakeMainRotorBlade
+    13700002: FakeTailRotor
+    13700004: GunnerDoor_LOD0
+    13700006: GunnerDoor_LOD1
+    13700008: GunnerDoor_LOD2
+    13700010: MainRotor_LOD0
+    13700012: MainRotor_LOD1
+    13700014: MainRotor_LOD2
+    13700016: MainRotorBlade_LOD0
+    13700018: MainRotorBlade_LOD1
+    13700020: MainRotorBlade_LOD2
+    13700022: PilotDoor_LOD0
+    13700024: PilotDoor_LOD1
+    13700026: PilotDoor_LOD2
+    13700028: TailRotor_LOD0
+    13700030: TailRotor_LOD1
+    13700032: TailRotor_LOD2
+    20500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
